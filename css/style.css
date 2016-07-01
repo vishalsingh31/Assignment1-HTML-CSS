@@ -1,10 +1,12 @@
 header{
 	margin-top: -20px;
 	overflow: hidden;
+	position: fixed;
+	background: white
 }
 header h1{
 	float: left;
-	font-family:sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	color: #7e7e7e;
 }
@@ -24,4 +26,35 @@ a:hover{
 }
 .main{
 	margin-top: 20px;
+}
+footer div{
+	background-color: #2F2E2E;
+}
+footer div ul{
+	list-style: none;
+}
+footer div ul li{
+	color: white;
+	text-align: justify;
+}
+.footer_first_section{
+	margin-left: 0;
+}
+.main h2,p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	color: #424242;
+}
+.main h2{
+	text-align: center;
+}
+.hero{
+	margin-top: 110px;
+}
+blockquote h1{
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #4F4E4E;
+	margin-bottom: 35px;
 }
