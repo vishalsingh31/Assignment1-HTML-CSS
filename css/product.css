@@ -1,0 +1,21 @@
+.product_heading{
+	margin-top: 100px;
+}
+.product_heading h1{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	color: #7e7e7e;
+}
+.main_section div h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #7e7e7e;
+	text-align: center;
+}
+.main_section_bottom div h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #7e7e7e;
+	text-align: center;
+}
+.engineered-systems_section{
+	padding-left: 20px;
+}

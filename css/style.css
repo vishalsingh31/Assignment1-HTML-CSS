@@ -21,8 +21,11 @@ a{
 	text-decoration: none;
 	color: #7e7e7e;
 }
-a:hover{
+a:hover,.selected{
 	color: black;
+}
+nav ul li a{
+	font-weight: bold;
 }
 .main{
 	margin-top: 20px;
@@ -46,6 +49,9 @@ footer div ul li:first-child{
 }
 .footer_last_section ul li:first-child{
 	text-decoration: none;
+}
+.first_list li{
+	display: inline;
 }
 .main h2,p{
 	font-family: 'Montserrat', sans-serif;
@@ -88,10 +94,5 @@ blockquote h1{
 .news_section_list div h4{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-}
-.hr{ 
-	width:100%; 
-	height:1px; 
-	background: #fff 
 }
 
