@@ -34,11 +34,18 @@ footer div ul{
 	list-style: none;
 }
 footer div ul li{
-	color: white;
+	color: #7e7e7e;
 	text-align: justify;
+}
+footer div ul li:first-child{
+	font-weight: bold;
+	text-decoration: underline;
 }
 .footer_first_section{
 	margin-left: 0;
+}
+.footer_last_section ul li:first-child{
+	text-decoration: none;
 }
 .main h2,p{
 	font-family: 'Montserrat', sans-serif;
@@ -58,3 +65,33 @@ blockquote h1{
 	color: #4F4E4E;
 	margin-bottom: 35px;
 }
+.news_section div h3 a{
+	font-family: 'Montserrat', sans-serif;
+	color: #424242;
+}
+.news_section div h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #424242;
+}
+.news_section_list div{
+	text-align: justify;
+}
+.news_section_list div h3{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: -10px;
+	line-height: 25px;
+}
+.news_section_list div h3 a{
+	font-family: 'Montserrat', sans-serif;
+	color: #424242;
+}
+.news_section_list div h4{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.hr{ 
+	width:100%; 
+	height:1px; 
+	background: #fff 
+}
+
